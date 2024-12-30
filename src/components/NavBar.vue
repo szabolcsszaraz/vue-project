@@ -28,7 +28,29 @@ export default {
               Ponuky práce
             </router-link>
           </li>
-
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'favorites' }"
+              to="/favorites"
+            >
+              <i class="bi bi-heart"></i> Obľúbené
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              :class="{ active: $route.name === 'new-job' }"
+              to="/new-job"
+            >
+              <i class="bi bi-plus-circle"></i> Pridať ponuku
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" :class="{ active: $route.name === 'about' }" to="/about">
+              O aplikácii
+            </router-link>
+          </li>
         </ul>
       </div>
     </div>

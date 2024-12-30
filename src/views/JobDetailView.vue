@@ -1,12 +1,17 @@
 <script>
 export default {
-  name: 'HomeView',
+  name: 'JobDetailView',
+  props: {
+    id: {
+      type: String,
+      required: true
+    }
+  },
   data() {
     return {
       loading: true
     }
   },
-  //simuluje nacitanie
   mounted() {
     setTimeout(() => {
       this.loading = false
@@ -17,17 +22,16 @@ export default {
 
 <template>
   <div class="container py-4">
-    <h1 class="mb-4">Pracovné ponuky</h1>
-    <!-- Filter pojde sem -->
-    <div v-if="loading" class="text-center py-5">
+    <div v-if="loading" class="text-center">
       <div class="spinner-border" role="status">
         <span class="visually-hidden">Načítavam...</span>
       </div>
     </div>
-    <div v-else>
-      <!-- Pracovne ponuky pojdu sem -->
+    <div v-else class="card">
+      <div class="card-body">
+        <h1 class="card-title h2">Job Title</h1>
+        <!-- Job detaily pojdu sem-->
+      </div>
     </div>
   </div>
 </template>
-
-

@@ -18,8 +18,14 @@ export default {
 
   <NavBar />
 
-  <Footer />
+<!--  dynamicky vykresľuje komponentu na základe aktuálnej trasy-->
+  <main>
+    <router-view v-slot="{ Component }">
+        <component :is="Component" />
+    </router-view>
+  </main>
 
+  <Footer />
 
 </template>
 
