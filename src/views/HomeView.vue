@@ -1,12 +1,13 @@
 <script>
-import { useJobStore } from '../stores/jobStore'
-import JobCard from '../components/JobCard.vue'
-import mockJobs from '../data/jobs.json'
+import { useJobStore } from '@/stores/jobStore'
+import JobCard from '@/components/JobCard.vue'
+import Pagination from '@/components/Pagination.vue'
+import mockJobs from '@/data/jobs.json'
 
 export default {
   name: 'HomeView',
   components: {
-    JobCard,
+    JobCard, Pagination
   },
   data() {
     return {
@@ -26,9 +27,14 @@ export default {
       const start = (this.currentPage - 1) * this.itemsPerPage
       const end = start + this.itemsPerPage
       return this.filteredJobs.slice(start, end)
+    },totalPages() {
+      return Math.ceil(this.filteredJobs.length / this.itemsPerPage)
     }
   },
   methods: {
+    handlePageChange(page) {
+      this.currentPage = page
+    },
     async initializeJobs() {
       try {
         const jobs = mockJobs.jobs
@@ -65,6 +71,11 @@ export default {
           v-for="job in paginatedJobs"
           :key="job.id"
           :job="job"
+        />
+        <Pagination
+          :current-page="currentPage"
+          :total-pages="totalPages"
+          @page-change="handlePageChange"
         />
       </div>
       <div v-else class="alert alert-info">
