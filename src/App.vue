@@ -18,7 +18,7 @@ export default {
 
   <NavBar />
 
-<!--  dynamicky vykresľuje komponentu na základe aktuálnej trasy-->
+<!--  dynamicky vykresľuje komponent na základe aktuálnej trasy-->
   <main>
     <router-view v-slot="{ Component }">
         <component :is="Component" />

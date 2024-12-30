@@ -1,0 +1,184 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Tech Solutions s.r.o.",
+      "location": "Bratislava",
+      "type": "Full-time",
+      "salary": "2500-3500",
+      "description": "Hľadáme skúseného Frontend vývojára pre prácu na moderných webových aplikáciách. Požadujeme znalosti Vue.js, React alebo Angular. Ponúkame flexibilný pracovný čas a možnosť práce z domu."
+    },
+    {
+      "id": 2,
+      "title": "Backend Java Developer",
+      "company": "Global IT Systems",
+      "location": "Košice",
+      "type": "Full-time",
+      "salary": "2800-4000",
+      "description": "Do nášho tímu hľadáme Backend Java developera so skúsenosťami so Spring Boot a mikroslužbami. Budeš pracovať na vývoji škálovateľných aplikácií pre našich medzinárodných klientov."
+    },
+    {
+      "id": 3,
+      "title": "UX/UI Designer",
+      "company": "Creative Studio",
+      "location": "Remote",
+      "type": "Remote",
+      "salary": "2000-3000",
+      "description": "Hľadáme kreatívneho UX/UI dizajnéra pre návrh používateľských rozhraní webových a mobilných aplikácií. Požadujeme skúsenosti s Figma a Adobe Creative Suite."
+    },
+    {
+      "id": 4,
+      "title": "DevOps Engineer",
+      "company": "Cloud Systems",
+      "location": "Žilina",
+      "type": "Full-time",
+      "salary": "3000-4500",
+      "description": "Hľadáme DevOps inžiniera so skúsenosťami s AWS, Docker a Kubernetes. Budeš zodpovedný za správu a automatizáciu našej cloud infraštruktúry."
+    },
+    {
+      "id": 5,
+      "title": "Python Developer",
+      "company": "Data Analytics Pro",
+      "location": "Bratislava",
+      "type": "Part-time",
+      "salary": "1800-2500",
+      "description": "Hľadáme Python developera pre vývoj dátovo-analytických nástrojov. Požadujeme znalosti Python, pandas a SQL. Možnosť part-time práce popri štúdiu."
+    },
+    {
+      "id": 6,
+      "title": "QA Engineer",
+      "company": "Quality First",
+      "location": "Trnava",
+      "type": "Full-time",
+      "salary": "2000-3000",
+      "description": "Do tímu hľadáme QA inžiniera pre manuálne a automatizované testovanie webových aplikácií. Skúsenosti so Selenium a Cypress výhodou."
+    },
+    {
+      "id": 7,
+      "title": "Mobile Developer",
+      "company": "App Masters",
+      "location": "Remote",
+      "type": "Remote",
+      "salary": "3000-4000",
+      "description": "Hľadáme vývojára mobilných aplikácií so skúsenosťami s React Native alebo Flutter. Budeš pracovať na vývoji aplikácií pre iOS a Android."
+    },
+    {
+      "id": 8,
+      "title": "Full-Stack Developer",
+      "company": "Innovative Web Solutions",
+      "location": "Praha",
+      "type": "Full-time",
+      "salary": "3200-4500",
+      "description": "Hľadáme Full-Stack developera so skúsenosťami s Node.js a Vue.js na vývoj moderných webových aplikácií. Flexibilná pracovná doba a možnosť práce z domu."
+    },
+    {
+      "id": 9,
+      "title": "Data Scientist",
+      "company": "AI Analytics Group",
+      "location": "Brno",
+      "type": "Full-time",
+      "salary": "3500-5000",
+      "description": "Do nášho tímu hľadáme skúseného Data Scientist-a so znalosťami Python, TensorFlow a strojového učenia. Skvelé možnosti rastu a práca na inovatívnych projektoch."
+    },
+    {
+      "id": 10,
+      "title": "React Developer",
+      "company": "Modern Interfaces",
+      "location": "Remote",
+      "type": "Remote",
+      "salary": "2700-4000",
+      "description": "Hľadáme React developera pre vývoj moderných webových aplikácií. Skúsenosti s Redux a TypeScript sú výhodou. Práca je kompletne remote."
+    },
+    {
+      "id": 11,
+      "title": "Machine Learning Engineer",
+      "company": "DeepTech Labs",
+      "location": "Bratislava",
+      "type": "Full-time",
+      "salary": "4000-6000",
+      "description": "Pripojte sa k nášmu tímu ako Machine Learning Engineer a pracujte na vývoji prediktívnych modelov a dátových riešení. Znalosť Pythonu, TensorFlow a cloud technológií je potrebná."
+    },
+    {
+      "id": 12,
+      "title": "Product Manager",
+      "company": "Global Innovators",
+      "location": "Košice",
+      "type": "Full-time",
+      "salary": "3500-5000",
+      "description": "Hľadáme skúseného Product Managera na vedenie technologických projektov. Potrebné sú skúsenosti s agilnými metódami a tímovým vedením."
+    },
+    {
+      "id": 13,
+      "title": "Junior Graphic Designer",
+      "company": "Creative Agency",
+      "location": "Žilina",
+      "type": "Part-time",
+      "salary": "1500-2000",
+      "description": "Hľadáme Junior Graphic Designer-a so zmyslom pre detail a kreatívnym prístupom. Skúsenosti s Adobe Photoshop a Illustrator výhodou."
+    },
+    {
+      "id": 14,
+      "title": "Technical Support Specialist",
+      "company": "TechHelp Services",
+      "location": "Trenčín",
+      "type": "Full-time",
+      "salary": "1800-2500",
+      "description": "Hľadáme Technického Podporu, ktorý bude pomáhať zákazníkom s riešením technických problémov. Skúsenosti s IT supportom sú vítané."
+    },
+    {
+      "id": 15,
+      "title": "Blockchain Developer",
+      "company": "CryptoTech Solutions",
+      "location": "Remote",
+      "type": "Remote",
+      "salary": "5000-7000",
+      "description": "Pripojte sa k nášmu tímu ako Blockchain Developer na vývoj decentralizovaných aplikácií. Skúsenosti s Ethereum a Solidity sú nevyhnutné."
+    },
+    {
+      "id": 16,
+      "title": "SEO Specialist",
+      "company": "Marketing Gurus",
+      "location": "Bratislava",
+      "type": "Full-time",
+      "salary": "2000-3000",
+      "description": "Hľadáme SEO špecialistu na optimalizáciu webových stránok a zvýšenie organickej návštevnosti. Znalosti Google Analytics a nástrojov SEO sú nutnosťou."
+    },
+    {
+      "id": 17,
+      "title": "Sales Manager",
+      "company": "Business Solutions",
+      "location": "Banská Bystrica",
+      "type": "Full-time",
+      "salary": "2500-4000",
+      "description": "Hľadáme Sales Managera so skúsenosťami v B2B predaji. Ponúkame dynamickú prácu a motivačný bonusový systém."
+    },
+    {
+      "id": 18,
+      "title": "DevOps Intern",
+      "company": "CloudOps",
+      "location": "Bratislava",
+      "type": "Internship",
+      "salary": "1200-1500",
+      "description": "Hľadáme stážistu pre DevOps tím. Ideálny kandidát má základné znalosti kontajnerizácie (Docker) a cloudových technológií (AWS, Azure)."
+    },
+    {
+      "id": 19,
+      "title": "Cybersecurity Specialist",
+      "company": "SecureTech",
+      "location": "Košice",
+      "type": "Full-time",
+      "salary": "4500-6500",
+      "description": "Hľadáme špecialistu na kybernetickú bezpečnosť so znalosťami v oblasti SIEM, penetration testing a zabezpečenia IT infraštruktúr."
+    },
+    {
+      "id": 20,
+      "title": "Mobile App Designer",
+      "company": "App Creations",
+      "location": "Remote",
+      "type": "Remote",
+      "salary": "3000-4500",
+      "description": "Hľadáme UX/UI dizajnéra pre návrh mobilných aplikácií. Skúsenosti s nástrojmi ako Sketch alebo Figma sú výhodou."
+    }
+  ]
+}
