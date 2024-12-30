@@ -55,5 +55,11 @@ export const useJobStore = defineStore('jobs', {
       localStorage.setItem('favorites', JSON.stringify(this.favorites))
     },
 
+    deleteJob(jobId) {
+      this.jobs = this.jobs.filter(job => job.id !== jobId)
+      this.favorites = this.favorites.filter(id => id !== jobId)
+      this.saveToLocalStorage()
+    },
+
   }
 })
