@@ -37,8 +37,13 @@ export default {
     },
     async initializeJobs() {
       try {
-        const jobs = mockJobs.jobs
-        this.store.$patch({ jobs })
+        const savedJobs = localStorage.getItem('jobs')
+        if (savedJobs) {
+          this.store.$patch({ jobs: JSON.parse(savedJobs) })
+        } else {
+          this.store.$patch({ jobs: mockJobs.jobs })
+        }
+
         const savedFavorites = localStorage.getItem('favorites')
         if (savedFavorites) {
           this.store.$patch({ favorites: JSON.parse(savedFavorites) })
