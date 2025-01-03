@@ -63,6 +63,17 @@ export const useJobStore = defineStore('jobs', {
 
     updateFilters(filters) {
       this.filters = { ...this.filters, ...filters }
+    },
+
+    updateJob(updatedJob) {
+      const index = this.jobs.findIndex(job => job.id === updatedJob.id)
+      if (index !== -1) {
+        this.jobs[index] = {
+          ...this.jobs[index],
+          ...updatedJob
+        }
+        this.saveToLocalStorage()
+      }
     }
   }
 })

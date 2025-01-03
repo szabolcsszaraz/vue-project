@@ -36,6 +36,13 @@ export default {
       this.store.deleteJob(parseInt(this.id))
       this.showDeleteModal = false
       this.$router.push('/')
+    },
+    editJob() {
+      this.$router.push({
+        name: 'new-job',
+        query: { edit: 'true' },
+        params: { id: this.id }
+      })
     }
   }
 }

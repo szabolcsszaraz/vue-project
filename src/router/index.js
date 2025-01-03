@@ -21,9 +21,10 @@ const router = createRouter({
       props: true
     },
     {
-      path: '/new-job',
+      path: '/new-job/:id?',
       name: 'new-job',
-      component: NewJobView
+      component: NewJobView,
+      props: true
     },
     {
       path: '/favorites',
