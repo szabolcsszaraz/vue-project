@@ -1,5 +1,5 @@
 <script>
-import { useJobStore } from '@/stores/jobStore'
+import { useJobStore } from '@/stores/jobStore.js'
 import JobCard from '@/components/JobCard.vue'
 import Pagination from '@/components/Pagination.vue'
 

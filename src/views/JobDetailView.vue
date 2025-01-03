@@ -1,5 +1,5 @@
 <script>
-import { useJobStore } from '../stores/jobStore'
+import { useJobStore } from '../stores/jobStore.js'
 
 export default {
   name: 'JobDetailView',

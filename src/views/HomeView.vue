@@ -1,13 +1,14 @@
 <script>
-import { useJobStore } from '@/stores/jobStore'
+import { useJobStore } from '@/stores/jobStore.js'
 import JobCard from '@/components/JobCard.vue'
 import Pagination from '@/components/Pagination.vue'
+import JobFilter from '@/components/JobFilter.vue'
 import mockJobs from '@/data/jobs.json'
 
 export default {
   name: 'HomeView',
   components: {
-    JobCard, Pagination
+    JobCard, Pagination, JobFilter
   },
   data() {
     return {
@@ -64,7 +65,7 @@ export default {
 <template>
   <div class="container py-4">
     <h1 class="mb-4">Pracovné ponuky</h1>
-    <!-- Filter pojde sem -->
+    <JobFilter />
     <div v-if="loading" class="text-center py-5">
       <div class="spinner-border" role="status">
         <span class="visually-hidden">Načítavam...</span>

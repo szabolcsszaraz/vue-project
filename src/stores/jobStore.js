@@ -61,5 +61,8 @@ export const useJobStore = defineStore('jobs', {
       this.saveToLocalStorage()
     },
 
+    updateFilters(filters) {
+      this.filters = { ...this.filters, ...filters }
+    }
   }
 })
